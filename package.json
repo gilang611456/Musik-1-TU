@@ -1,0 +1,29 @@
+{
+  "name": "timezone-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^11.6.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "fuse.js": "^6.0.3",
+    "nodemon": "^2.0.4",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^3.1.1",
+    "opusscript": "^0.0.7"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ]
+  }
+} 
